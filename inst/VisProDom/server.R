@@ -12,6 +12,7 @@ library(markdown)
 library(fresh)
 library(shinyBS)
 library(plotly)
+library(VisProDom)
 #options(shiny.maxRequestSize=1000*1024^2,shiny.usecairo=TRUE,res=300)
 options(shiny.usecairo=TRUE,res=300)
 server <- function(input, output,session) {
